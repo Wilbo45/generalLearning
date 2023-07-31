@@ -1,6 +1,33 @@
+Introducing GenerativeAI
 
+Where it fits in the paths of ai...
 
 Generative AI              (Specialised)
 Deep Learning
 Machine learning
 Artiificial intelligence   (Generalised)
+
+AI - Broad spectrum of creating systems that perform tasks, showing human intelligences and the ability and being able to interact with the ecosystem.
+
+ML - branch focus on creating algorithms and models that enable the systems to learn and improve over time with training.
+
+DL - subbranch of deep models that are called neural networks and suitable fo computer vision and NLP.
+Typically discrimitive models that make predictions and infer patterns in the data.
+
+GEN AI - Uses neural network models to generate new content from images to natural language from music to video.
+
+TEXT GENERATION
+GPT-3, developed by OpenAI can be trained on large amounts of text data and the used to generate new, coherent and gramatically correct text in dif languages, as well as extracting relevant features.
+
+IMAGE GENERATION
+
+MUSIC GENERATION
+
+VIDEO GEN
+
+Timeline started with ELIZA in the 60s.
+Variational autoencoders are about breaking the image or problem down. Latent space is used to think about the characteristics of the problem and map these latent variables to the original value and then use these to create a new picture.
+
+Neural networks consist of a generator and a discrimintor working against each other in a zero sum game.
+ADVERSERIAL TRAINING. generator trying to fool the discriminator and the discrimantor trying to call the fake.
+
