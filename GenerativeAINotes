@@ -73,6 +73,8 @@ The above models can be customised (customised models)"
 1. Provide the model with the context in the few learning approach.
 2. Fine tuning the parameters of the pre trained model are altered. providing a small labeled data set.
 
+
+
 The MATH in the model
 ----------------------------
 GPT generative pre trained transformers.
