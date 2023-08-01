@@ -74,6 +74,7 @@ The above models can be customised (customised models)"
 2. Fine tuning the parameters of the pre trained model are altered. providing a small labeled data set.
 
 
+REF https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
 
 The MATH in the model
 ----------------------------
@@ -81,6 +82,25 @@ GPT generative pre trained transformers.
 GPT models belong to the architectural frameworks of transformers (google paper - attention is all you need).
 
 GPT overcame the limitations of Recurrent neural networks (RNNs).
+
+RNNs
+-----
+Activation function descides whether neuron should be activated or not in Neural networks.
+
+INPUT ----> hidden Layor (w. activation function) ---> OUTPUT
+
+But typically we want to run for longer periods of time understanding points on the longitudinal journey.
+Time series like data.
+We want to embed the various sampled data over time into the model to inform and properly interpret the current input and forecast future outputs.
+
+LIMITATIONS of the RNN that were addressed to a degree by the TRANSFORMER architecture.
+ - Gradients vanishing and exploding
+ - Limited context. elements far apart in the input sequence and their context are lost.
+ - No parrelisation and therefore not able to use GPUs.
+
+
+
+
 
 
 
