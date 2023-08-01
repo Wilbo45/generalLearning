@@ -1,6 +1,86 @@
+Introducing GenerativeAI - CHAP 1
+-------------------------------
 
+Where it fits in the paths of ai...
 
 Generative AI              (Specialised)
 Deep Learning
 Machine learning
 Artiificial intelligence   (Generalised)
+
+AI - Broad spectrum of creating systems that perform tasks, showing human intelligences and the ability and being able to interact with the ecosystem.
+
+ML - branch focus on creating algorithms and models that enable the systems to learn and improve over time with training.
+
+DL - subbranch of deep models that are called neural networks and suitable fo computer vision and NLP.
+Typically discrimitive models that make predictions and infer patterns in the data.
+
+GEN AI - Uses neural network models to generate new content from images to natural language from music to video.
+
+TEXT GENERATION
+GPT-3, developed by OpenAI can be trained on large amounts of text data and the used to generate new, coherent and gramatically correct text in dif languages, as well as extracting relevant features.
+
+IMAGE GENERATION
+
+MUSIC GENERATION
+
+VIDEO GEN
+
+Timeline started with ELIZA in the 60s.
+Variational autoencoders are about breaking the image or problem down. Latent space is used to think about the characteristics of the problem and map these latent variables to the original value and then use these to create a new picture.
+
+Neural networks consist of a generator and a discrimintor working against each other in a zero sum game.
+ADVERSERIAL TRAINING. generator trying to fool the discriminator and the discrimantor trying to call the fake.
+
+Transformer part of BERT. - revoultionary in language generation allowing for parrellel processing while retaining mem about the context of the language.
+
+OPEN AI AND CHATGPT CHAP 2
+----------------------------
+
+Log in to OPENAI from google account... not happy!!
+
+OpenAI focused on deep reinforcement learning combining neural networks with Reinforcement learning.
+
+https://platform.openai.com/playground
+
+JARGON and glossary
+TOKENS: work fragments or segments used to process input. processed by API
+PROMPT: piece of text given as an input.
+CONTEXT: The words and sentances that come before the users prompt. Used to generate the most probable next word.
+MODEL CONF: level of certainty in prediction and input
+
+CODEX - generate code.
+
+The parameters:
+ - Temperature, controls the randomness of the models response. Lower more determinsitic.
+ - Max length, repsonse.
+ - Stop sequence,
+ - Top probabilities, 
+ - Freq penalty, 
+
+INSTALLED openAI on the mac via pip
+CREATED API key.
+
+With the OpenAI API you can expose new models.
+
+MODERATION: Looking for potentiall sensitive and unsafe text content. E.g Hate and threatening.
+
+EMBEDDINGS: Representing words or sentances in a multidimensional space. The mathmatical distances represents their similarity. Useful in intelligant search scenarios, there fore not just text matching but looking for similar words that may be used in the search.
+
+WHISPER: Speech recognition models for transcribing audio.
+
+The above models can be customised (customised models)"
+1. Provide the model with the context in the few learning approach.
+2. Fine tuning the parameters of the pre trained model are altered. providing a small labeled data set.
+
+
+
+The MATH in the model
+----------------------------
+GPT generative pre trained transformers.
+GPT models belong to the architectural frameworks of transformers (google paper - attention is all you need).
+
+GPT overcame the limitations of Recurrent neural networks (RNNs).
+
+
+
