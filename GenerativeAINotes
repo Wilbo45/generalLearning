@@ -60,3 +60,25 @@ The parameters:
 
 INSTALLED openAI on the mac via pip
 CREATED API key.
+
+With the OpenAI API you can expose new models.
+
+MODERATION: Looking for potentiall sensitive and unsafe text content. E.g Hate and threatening.
+
+EMBEDDINGS: Representing words or sentances in a multidimensional space. The mathmatical distances represents their similarity. Useful in intelligant search scenarios, there fore not just text matching but looking for similar words that may be used in the search.
+
+WHISPER: Speech recognition models for transcribing audio.
+
+The above models can be customised (customised models)"
+1. Provide the model with the context in the few learning approach.
+2. Fine tuning the parameters of the pre trained model are altered. providing a small labeled data set.
+
+The MATH in the model
+----------------------------
+GPT generative pre trained transformers.
+GPT models belong to the architectural frameworks of transformers (google paper - attention is all you need).
+
+GPT overcame the limitations of Recurrent neural networks (RNNs).
+
+
+
